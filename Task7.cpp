@@ -28,6 +28,4 @@ int main() {
 
     cout << "No of treated patients: " << treated << endl;
     cout << "No of untreated patients: " << untreated << endl;
-
-    return 0;
 }
