@@ -6,12 +6,12 @@ int main() {
     int doctors = 7;
     int treated = 0; 
     int untreated = 0;
-    cout << "Enter number of days you visited the hospital: ";
+    cout << "Enter no of days you visited the hospital: ";
     cin >> n;
 
     for (int day = 1; day <= n; day++) {
         int patients;
-        cout << "Number of patients visited on day " << day << ": ";
+        cout << "No of patients visited on day " << day << ": ";
         cin >> patients;
 
         if (day % 3 == 0 && untreated > treated) {
