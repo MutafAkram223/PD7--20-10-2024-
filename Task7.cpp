@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    int days;
+    int n;
     int doctors = 7;
     int treated = 0; 
     int untreated = 0;
     cout << "Enter number of days you visited the hospital: ";
-    cin >> days;
+    cin >> n;
 
-    for (int day = 1; day <= days; day++) {
+    for (int day = 1; day <= n; day++) {
         int patients;
-        cout << "Number of patients who visited on day " << day << ": ";
+        cout << "Number of patients visited on day " << day << ": ";
         cin >> patients;
 
         if (day % 3 == 0 && untreated > treated) {
